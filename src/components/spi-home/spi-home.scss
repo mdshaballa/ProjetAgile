@@ -1,0 +1,22 @@
+@import "../../../node_modules/bulma/sass/grid/columns.sass";
+@import "../../../node_modules/bulma/sass/elements/table.sass";
+@import "../../../node_modules/bulma/sass/layout/hero.sass";
+@import "../../../node_modules/bulma/sass/components/modal.sass";
+body{
+    //background-image:url('https://picsum.photos/1200/900/?image=85');
+    background-image:url('https://images.wallpaperscraft.com/image/stars_milky_way_space_116893_1280x960.jpg');
+    background-position: center;
+    background-size: cover;
+ }
+html,body {
+    font-family: 'Open Sans', serif;
+  }
+  
+  .hero .nav, .hero.is-success .nav {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .hero .subtitle {
+    padding: 3rem 0;
+    line-height: 1.5;
+  }
